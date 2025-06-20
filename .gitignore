@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+
+# Archivos de configuración de herramientas
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Config de tests
+.pytest_cache/
+.tox/
+coverage.*
+.cache
+nosetests.xml
+test-results.xml
+htmlcov/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Distribución y builds
+build/
+dist/
+*.egg
+.eggs/
+MANIFEST
+
+# Configuración de mypy, pylint, etc.
+.mypy_cache/
+.pylint.d/
