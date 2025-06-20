@@ -1,0 +1,61 @@
+[
+    {
+        "id": 5,
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "age": 30,
+        "addresses": [
+            {
+                "type": "home",
+                "street": "123 Maple St",
+                "city": "Springfield",
+                "state": "IL",
+                "zip_code": "62701"
+            },
+            {
+                "type": "work",
+                "street": "456 Oak Ave",
+                "city": "Springfield",
+                "state": "IL",
+                "zip_code": "62702"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "age": 42,
+        "addresses": [
+            {
+                "type": "home",
+                "street": "789 Pine Rd",
+                "city": "Greenville",
+                "state": "TX",
+                "zip_code": "75401"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "first_name": "Carla",
+        "last_name": "Johnson",
+        "age": 27,
+        "addresses": [
+            {
+                "type": "home",
+                "street": "321 Cedar Blvd",
+                "city": "Austin",
+                "state": "TX",
+                "zip_code": "73301"
+            },
+            {
+                "type": "vacation",
+                "street": "654 Palm Dr",
+                "city": "Miami",
+                "state": "FL",
+                "zip_code": "33101"
+            }
+        ]
+    }
+]
