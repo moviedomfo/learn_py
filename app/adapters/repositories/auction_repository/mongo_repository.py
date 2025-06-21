@@ -4,9 +4,11 @@ from app.domain.entities.auctionBE import AuctionBE
 from app.domain.entities.bidBE import BidBE
 from app.ports.repos.IAuctionRepository import IAuctionRepository
 from typing import Any
+from motor.motor_asyncio import AsyncIOMotorClient
+
 class MongoRepository(IAuctionRepository):
-    def __init__(self, db):
-        self.db = db
+    def __init__(self, client: AsyncIOMotorClient):
+        self.collection = client.auctions.auction
 
     async def get(self, **filters: Any) -> AuctionBE | None:
         auction_data = await self.db.auctions.find_one(filters)
