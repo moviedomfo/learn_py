@@ -33,7 +33,8 @@ Returns:
 """
 ...
 # from app.personDTO import Person
-from domain.entities.personDTO import Person, Address
+from app.domain.entities.personBE import Person,Address
+from app.domain.entities.personDTO import PersonDTO, AddressDTO
 from fastapi import FastAPI
 from pydantic import BaseModel
 import json
@@ -62,8 +63,7 @@ def saludo(nombre: str):
 
     return resToObject
 
-
-
+ 
 @app.get("/person/{id}",tags=("persons"))
 def getPerson(id: int):
 
